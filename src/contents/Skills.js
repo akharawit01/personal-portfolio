@@ -81,7 +81,7 @@ const Skill = ({ width, id }) => {
               <Slide bottom duration={3000} key={label}>
                 <SkillCard
                   minWidth={
-                    width === "xs"
+                    width === "xs" || width === "sm"
                       ? Math.floor(Math.random() * 300)
                       : Math.floor(Math.random() * 400)
                   }
