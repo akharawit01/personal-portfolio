@@ -15,42 +15,39 @@ function App() {
   return (
     <>
       <Helmet>
-        {/* <!-- HTML Meta Tags --> */}
-        <title>Akharawit.A, A Front End developer, Love to travel</title>
+        <title>Akharawit, Personal Portfolio.</title>
+        <meta name="title" content="Akharawit, Personal Portfolio." />
         <meta
           name="description"
-          content="Akharawit.A, A Front End developer, Love to travel"
+          content="Akharawit, A Front End developer, Love to travel."
         />
 
-        {/* <!-- Google / Search Engine Tags --> */}
-        <meta itemprop="name" content="Akharawit.A Personal Portfolio" />
-        <meta
-          itemprop="description"
-          content="Akharawit.A, A Front End developer, Love to travel"
-        />
-        <meta itemprop="image" content={me} />
-
-        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:type" content="website" />
         <meta
           property="og:url"
           content="https://akharawit-personal-portfolio.herokuapp.com/"
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Akharawit.A Personal Portfolio" />
+        <meta property="og:title" content="Akharawit, Personal Portfolio." />
         <meta
           property="og:description"
-          content="Akharawit.A, A Front End developer, Love to travel"
+          content="Akharawit, A Front End developer, Love to travel."
         />
         <meta property="og:image" content={me} />
 
-        {/* <!-- Twitter Meta Tags --> */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Akharawit.A Personal Portfolio" />
+        <meta property="twitter:card" content="summary_large_image" />
         <meta
-          name="twitter:description"
-          content="Akharawit.A, A Front End developer, Love to travel"
+          property="twitter:url"
+          content="https://akharawit-personal-portfolio.herokuapp.com/"
         />
-        <meta name="twitter:image" content={me} />
+        <meta
+          property="twitter:title"
+          content="Akharawit, Personal Portfolio."
+        />
+        <meta
+          property="twitter:description"
+          content="Akharawit, A Front End developer, Love to travel."
+        />
+        <meta property="twitter:image" content={me} />
       </Helmet>
       <BrowserRouter>
         <ParallaxProvider>
