@@ -93,7 +93,19 @@ const Hero = ({ id }) => {
             <SubHeadline variant="h4">
               A Front End developer & <br /> Love to travel
             </SubHeadline>
-            <Button variant="outlined" size="large" color="secondary">
+            <Button
+              variant="outlined"
+              size="large"
+              color="secondary"
+              onClick={() => {
+                window
+                  .open(
+                    "https://drive.google.com/file/d/1809pi85bw2bsXcxnFwRHqXzzo4E-caFb/view?usp=sharing",
+                    "_blank"
+                  )
+                  .focus();
+              }}
+            >
               <strong>Download CV.</strong>
             </Button>
           </HeroHeadlineWrapper>

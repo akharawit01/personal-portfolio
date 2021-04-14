@@ -78,7 +78,7 @@ const Contact = ({ id }) => {
               </Box>
               <Box flexGrow={1}>
                 <Typography variant="overline">Call me now</Typography>
-                <AdaptTypography variant="h6">+6684 407 7469</AdaptTypography>
+                <AdaptTypography variant="h6">+6684 406 7469</AdaptTypography>
               </Box>
             </Box>
           </Grid>

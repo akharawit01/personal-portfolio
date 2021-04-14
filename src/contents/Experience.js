@@ -14,7 +14,6 @@ import TimelineDot from "@material-ui/lab/TimelineDot";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import AirplanemodeActiveIcon from "@material-ui/icons/AirplanemodeActive";
 import LaptopMacIcon from "@material-ui/icons/LaptopMac";
-import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -88,7 +87,7 @@ export default function Experience({ id }) {
           <AdaptTimelineItem>
             <TimelineOppositeContent>
               <Typography variant="body2" color="textSecondary">
-                Nov 2018 - Present
+                Nov 2018 - Present, Chiang Mai
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -108,20 +107,23 @@ export default function Experience({ id }) {
                   </TypoSupTitle>
                   <Ul>
                     <li>
-                      Develop Website with HTML5, CSS3, Javascript, jQuery, PHP,
-                      MySQL and Yii2.
+                      Building stable and maintainable codebases using
+                      React/Gatsby and performance testing with Jest and React
+                      Testing Library, convert concept design from Figma.
                     </li>
                     <li>
-                      Convert concept design from Adobe Photoshop/Adobe
-                      Illustrator to responsive website.
+                      Optimizing web pages for maximum speed and scalability
+                      with Lighthouse.
                     </li>
                     <li>
-                      Analyze and Complete detailed programming and development
-                      tasks for Front End as well as Back End coding.
+                      Setting up a CI/CD pipeline for project, push the code to
+                      Github, Github workflow CI/CD tool, AWS S3 for storing the
+                      project and Cloudflare CDN.
                     </li>
                     <li>
-                      Carry out quality assurance tests to discover errors and
-                      optimize usability.
+                      Directly collaborated with Product Owner to work on the
+                      website redesign, actively giving suggestions for an
+                      improvement of UI and UX experience
                     </li>
                   </Ul>
                 </Paper>
@@ -131,7 +133,7 @@ export default function Experience({ id }) {
           <AdaptTimelineItem>
             <TimelineOppositeContent>
               <Typography variant="body2" color="textSecondary">
-                Aug 2017 - Oct 2018
+                Aug 2017 - Oct 2018, Chiang Mai
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -151,12 +153,9 @@ export default function Experience({ id }) {
                   </TypoSupTitle>
                   <Ul>
                     <li>
-                      Develop Website with HTML5, CSS3, Javascript, jQuery and
-                      Angular 4+.
-                    </li>
-                    <li>
-                      Convert concept design from Adobe Photoshop/Adobe
-                      Illustrator to responsive website.
+                      Building stable and maintainable codebases using
+                      Angular/Gulpjs, Bootstrap4, convert concept design from
+                      Adobe Photoshop/Adobe Illustrator to responsive website.
                     </li>
                   </Ul>
                 </Paper>
@@ -166,78 +165,34 @@ export default function Experience({ id }) {
           <AdaptTimelineItem>
             <TimelineOppositeContent>
               <Typography variant="body2" color="textSecondary">
-                Dec 2016 - Aug 2017
+                Aug 2015 - Oct 2017, Chiang Mai
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="secondary">
                 <AirplanemodeActiveIcon />
               </TimelineDot>
-              <TimelineConnector className={classes.secondaryTail} />
             </TimelineSeparator>
             <TimelineContent>
               <Fade bottom>
                 <Paper elevation={2} className={classes.paper}>
                   <TypoTitle variant="h6" component="h1">
-                    Freelance
+                    Chiangmai Zone & Freelance
                   </TypoTitle>
                   <TypoSupTitle variant="button" display="block" gutterBottom>
                     Front End Developer
                   </TypoSupTitle>
                   <Ul>
                     <li>
-                      Develop Website with HTML5, CSS3, Javascript, jQuery, PHP,
-                      MySQL and Yii2.
+                      Worked together with the CRO and marketing team in order
+                      to develop, convert concept design from Adobe
+                      Photoshop/Adobe Illustrator to responsive website, HTML5,
+                      CSS3, Bootstrap4, Javascript, jQuery, PHP, MySQL, Laravel
+                      and Yii.
                     </li>
-                    <li>
-                      Convert concept design from Adobe Photoshop/Adobe
-                      Illustrator to responsive website.
-                    </li>
-                    <li>
-                      Analyze and Complete detailed programming and development
-                      tasks for Front End as well as Back End coding.
-                    </li>
-                    <li>
-                      Carry out quality assurance tests to discover errors and
-                      optimize usability.
-                    </li>
-                  </Ul>
-                </Paper>
-              </Fade>
-            </TimelineContent>
-          </AdaptTimelineItem>
-          <AdaptTimelineItem>
-            <TimelineOppositeContent>
-              <Typography variant="body2" color="textSecondary">
-                Aug 2015 - Nov 2016
-              </Typography>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineDot color="secondary">
-                <PlayArrowIcon />
-              </TimelineDot>
-            </TimelineSeparator>
-            <TimelineContent>
-              <Fade bottom>
-                <Paper elevation={2} className={classes.paper}>
-                  <TypoTitle variant="h6" component="h1">
-                    Chiangmai Zone
-                  </TypoTitle>
-                  <TypoSupTitle variant="button" display="block" gutterBottom>
-                    Front End & Back End Developer
-                  </TypoSupTitle>
-                  <Ul>
                     <li>
                       Joined client meeting to learn about development and
                       project scopes.
-                    </li>
-                    <li>
-                      Develop Website with HTML5, CSS3, Bootstrap4, Javascript,
-                      jQuery, PHP, MySQL, Laravel and Yii.
-                    </li>
-                    <li>
-                      Convert concept design from Adobe Photoshop/Adobe
-                      Illustrator to responsive website.
                     </li>
                   </Ul>
                 </Paper>

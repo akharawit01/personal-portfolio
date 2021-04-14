@@ -54,16 +54,16 @@ const Skill = ({ width, id }) => {
           <Box display="flex" flexWrap="wrap">
             {[
               {
-                label: "React",
+                label: "HTML",
                 percent: 90,
               },
               {
-                label: "Typescript",
-                percent: 80,
+                label: "CSS/CSS3",
+                percent: 90,
               },
               {
-                label: "Javascript",
-                percent: 80,
+                label: "SASS/SCSS",
+                percent: 90,
               },
               {
                 label: "Material UI",
@@ -74,7 +74,51 @@ const Skill = ({ width, id }) => {
                 percent: 80,
               },
               {
-                label: "Gatsby",
+                label: "LESS",
+                percent: 90,
+              },
+              {
+                label: "jQuery",
+                percent: 80,
+              },
+              {
+                label: "JavaScript",
+                percent: 80,
+              },
+              {
+                label: "Antd",
+                percent: 90,
+              },
+              {
+                label: "Bootstrap 4",
+                percent: 90,
+              },
+              {
+                label: "React",
+                percent: 90,
+              },
+              {
+                label: "TypeScript",
+                percent: 90,
+              },
+              {
+                label: "GraphQL",
+                percent: 70,
+              },
+              {
+                label: "Cloud (AWS)",
+                percent: 70,
+              },
+              {
+                label: "Firebase",
+                percent: 70,
+              },
+              {
+                label: "Jest, React Testing Library",
+                percent: 70,
+              },
+              {
+                label: "Payments (Stripe)",
                 percent: 70,
               },
             ].map(({ label, percent }) => (

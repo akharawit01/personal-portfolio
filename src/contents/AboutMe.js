@@ -141,11 +141,12 @@ const AboutMe = ({ id, width }) => {
               </Box>
               <TabPanel value={value} index={0}>
                 <Typography variant="body1">
-                  Technical and highly motivated Front end develop. My six years
-                  for experience in this field have prepared me well in HTML5,
-                  CSS3, Javascript/Typescript, jQuery, React, Angular and Gatsby
-                  and I also have strongly background in Back end numerous
-                  programming languages including MySQL and PHP.
+                  Innovative Front End Developer with 5 years experience
+                  building with special care on the user experience. Passionate
+                  for learning new technologies and methodologies. <br />
+                  Proficient in HTML, CSS, JavaScript; plus modern libraries and
+                  frameworks. Passionate about usability and possess working
+                  knowledge of Figma.
                 </Typography>
               </TabPanel>
               <TabPanel value={value} index={1}>
