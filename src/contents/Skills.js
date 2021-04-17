@@ -86,7 +86,7 @@ const Skill = ({ width, id }) => {
                 percent: 80,
               },
               {
-                label: "Antd",
+                label: "Ant Design",
                 percent: 90,
               },
               {
@@ -106,7 +106,7 @@ const Skill = ({ width, id }) => {
                 percent: 70,
               },
               {
-                label: "Cloud (AWS)",
+                label: "AWS S3",
                 percent: 70,
               },
               {

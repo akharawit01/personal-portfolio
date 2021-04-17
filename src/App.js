@@ -1,16 +1,24 @@
-import "./App.css";
+import React, { useEffect } from "react";
+
 import { BrowserRouter } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
 import lozad from "lozad";
+import ReactGA from "react-ga";
 import Helmet from "react-helmet";
 
 import Router from "./Router";
 
 import me from "./assets/me.jpg";
+import "./App.css";
 
 function App() {
   const observer = lozad();
   observer.observe();
+
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_ID);
+    ReactGA.pageview(window.location.pathname);
+  }, []);
 
   return (
     <>
