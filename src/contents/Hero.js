@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 import { Element } from "react-scroll";
+import ReactGA from "react-ga";
 
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
@@ -98,6 +99,10 @@ const Hero = ({ id }) => {
               size="large"
               color="secondary"
               onClick={() => {
+                ReactGA.event({
+                  category: "User",
+                  action: "Clicked for download my cv",
+                });
                 window
                   .open(
                     "https://drive.google.com/file/d/1809pi85bw2bsXcxnFwRHqXzzo4E-caFb/view?usp=sharing",
