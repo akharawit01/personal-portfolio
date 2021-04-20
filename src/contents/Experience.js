@@ -75,11 +75,6 @@ export default function Experience({ id }) {
         <Typography variant="h3" gutterBottom>
           Experience
         </Typography>
-        <Typography variant="body1" gutterBottom>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem, It doesn’t
-          matter how great your product or service is if your copy does not
-          captivate your audience.
-        </Typography>
       </Box>
 
       <div>

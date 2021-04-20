@@ -157,7 +157,7 @@ const AboutMe = ({ id, width }) => {
                     flexWrap="wrap"
                   >
                     <Typography gutterBottom>
-                      <strong>Rajamangala University ofTechnology</strong>
+                      <strong>Rajamangala University of Technology</strong>
                     </Typography>
                     <Typography variant="overline">Graduated 2016</Typography>
                   </Box>
@@ -173,7 +173,7 @@ const AboutMe = ({ id, width }) => {
                     flexWrap="wrap"
                   >
                     <Typography gutterBottom>
-                      <strong>Payap Technology and Business Colleg</strong>
+                      <strong>Payap Technology and Business Collage</strong>
                     </Typography>
                     <Typography variant="overline">Graduated 2014</Typography>
                   </Box>
